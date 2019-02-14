@@ -1,3 +1,48 @@
+@keyframes bounceV{
+    0%, 20%, 60%, 100%{
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+    40%{
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px);
+    }
+    80%{
+        -webkit-transform: translateY(-10px);
+        transform: translateY(-10px);
+    }
+}
+@keyframes bounceH{
+    0%, 20%, 60%, 100%{
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+    40%{
+        -webkit-transform: translateX(-20px);
+        transform: translateX(-20px);
+    }
+    80%{
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+}
+@media screen and (max-width:994px){
+    .numContent{
+        margin: 0 auto;
+        width: 85%;
+    }
+
+}
+
+a:link { 
+text-decoration:none; 
+} 
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
 
 /* Imagem background HOME */
 .imgBackground {
@@ -15,22 +60,101 @@
     top: 0;
 }
 
+.textFontNav{
+    font-family: 'Raleway', sans-serif;
+    padding: 15px;
+    font-size: 1.4rem;
+}
+.navbar{
+    padding: 0;
+}
+
+.centralize{
+    margin: 0 auto;
+    width: 60%;
+}
+.numeroHome{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size:1.5rem;
+    /* position: absolute; */
+    /* Gradient effect */
+    background: -webkit-linear-gradient(left, #00BEE4  0%, #00EAD3 100%);
+    background: linear-gradient(to right, #00BEE4  0%, #00EAD3 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+}
+.gradientNum{
+font-size: 130%;
+font-weight: bold;
+padding-left: 0.7rem;
+}
+
+.hr{
+    position: relative;
+    border-color:#FFF;
+    box-sizing:border-box;
+    width:50%;  
+    
+  }
+
+.imgContent{
+    padding: 1rem;
+}
+
 .textContent{
     position: relative;
     margin: 0 auto;
     width: 50%;
-    top:5rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.7rem;
+    
 }
 
-.textContent h1, h2, h3{
+.textContent h1, h2, h3, h4, h5{
     color:white;
     text-align: center;
+   
 }
 
 .iconesContent{
    position: relative;
-   top:6rem;
+   padding: 0.5rem 0 1rem 0;
+   margin: 0 auto;
+   width: 50%;
 }
+
+.button1{
+    color:#37481E;
+    background-color: #52FFEB;
+}
+.button1:hover{
+    border-color: #52FFEB;
+    color: #52FFEB;
+    background-color: rgba(69, 189, 175,0.50);
+    position: relative;
+}
+
+
+.button2{
+    color: #52FFEB;
+    border-color: #52FFEB;
+    background-color: rgba(0, 0, 0, 0);
+
+}
+
+.button2:hover{
+    background-color: rgba(69, 189, 175,0.50);
+}
+
+.efectMoveV:hover{
+    animation: bounceV 1s;
+}
+
+.efectMoveH:hover{
+    animation: bounceH 1s;
+}
+
+
 
 
  
