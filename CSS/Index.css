@@ -26,12 +26,11 @@
         transform: translateX(-10px);
     }
 }
-@media screen and (max-width:994px){
+@media screen and (max-width:996px){
     .numContent{
-        margin: 0 auto;
-        width: 85%;
+        margin: 0 auto !important;;
+        width: 85% !important;;
     }
-
 }
 
 a:link { 
@@ -43,6 +42,10 @@ ul {
     padding: 0px;
 }
 
+body{
+    margin: 0;
+    
+}
 
 /* Imagem background HOME */
 .imgBackground {
@@ -62,7 +65,7 @@ ul {
 
 .textFontNav{
     font-family: 'Raleway', sans-serif;
-    padding: 15px;
+    padding: 0.5rem;
     font-size: 1.4rem;
 }
 .navbar{
@@ -73,17 +76,17 @@ ul {
     margin: 0 auto;
     width: 60%;
 }
-.numeroHome{
+.gradientNum{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:1.5rem;
     /* position: absolute; */
     /* Gradient effect */
-    background: -webkit-linear-gradient(left, #00BEE4  0%, #00EAD3 100%);
-    background: linear-gradient(to right, #00BEE4  0%, #00EAD3 100%);
+    background: -webkit-linear-gradient(bottom, #06ABEE  0%, #28F19D 100%);
+    background: linear-gradient(to top, #06ABEE  0%, #28F19D 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
 }
-.gradientNum{
+.numeroHome{
 font-size: 130%;
 font-weight: bold;
 padding-left: 0.7rem;
@@ -98,7 +101,7 @@ padding-left: 0.7rem;
   }
 
 .imgContent{
-    padding: 1rem;
+        padding: 1rem;
 }
 
 .textContent{
@@ -125,19 +128,19 @@ padding-left: 0.7rem;
 
 .button1{
     color:#37481E;
-    background-color: #52FFEB;
+    background-color: #1DDBB6;
 }
 .button1:hover{
-    border-color: #52FFEB;
-    color: #52FFEB;
+    border-color: #1DDBB6;
+    color: #1DDBB6;
     background-color: rgba(69, 189, 175,0.50);
     position: relative;
 }
 
 
 .button2{
-    color: #52FFEB;
-    border-color: #52FFEB;
+    color: #1DDBB6;
+    border-color: #1DDBB6;
     background-color: rgba(0, 0, 0, 0);
 
 }
