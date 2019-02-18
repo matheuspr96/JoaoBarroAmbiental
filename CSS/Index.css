@@ -26,12 +26,6 @@
         transform: translateX(-10px);
     }
 }
-@media screen and (max-width:996px){
-    .numContent{
-        margin: 0 auto !important;;
-        width: 85% !important;;
-    }
-}
 
 a:link { 
 text-decoration:none; 
@@ -46,11 +40,22 @@ body{
     margin: 0;
     
 }
+.logo{
+    margin-top: 1.3rem;
+    float: left;
+    background-size: 100% auto;
+    width:"100%";
+    max-width: 300px;
+    height:100px;
+}
+.responsiveEdit{
+    background-size: 100% auto;
+}
 
 /* Imagem background HOME */
 .imgBackground {
     background-image: url("../Midia/pennsylvania_wood.jpg");
-     height: 40rem;
+    height: 40rem;
     background-size: cover; 
     position: relative;
 }
@@ -69,7 +74,7 @@ body{
     font-size: 1.4rem;
 }
 .navbar{
-    padding: 0;
+    display: block;
 }
 
 .centralize{
@@ -100,8 +105,8 @@ padding-left: 0.7rem;
     
   }
 
-.imgContent{
-        padding: 1rem;
+.callContent{
+    padding: 1rem;
 }
 
 .textContent{
@@ -109,8 +114,7 @@ padding-left: 0.7rem;
     margin: 0 auto;
     width: 50%;
     padding-top: 0.5rem;
-    padding-bottom: 0.7rem;
-    
+    padding-bottom: 0.7rem; 
 }
 
 .textContent h1, h2, h3, h4, h5{
