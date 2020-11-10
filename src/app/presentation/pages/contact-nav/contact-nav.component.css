@@ -1,0 +1,17 @@
+.nav-contato {
+    background-color: #f3f7fa;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    min-width: 75%;
+    z-index: 9999;
+    box-shadow: 0 -1px 57px -23px #7e8798;
+}
+
+.btn-blue {
+    background-color: #2FC1CC;
+}
+
+.pt15{
+ padding: 1.0rem;
+}
