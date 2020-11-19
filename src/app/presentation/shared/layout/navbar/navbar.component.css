@@ -1,0 +1,10 @@
+.nav-text{
+    font-size: 2rem !important;
+}
+
+.nav-text-li{
+    font-size: 1.4rem !important;
+    /* font-weight: lighter!important; */
+   font-family: 'Roboto', sans-serif !important;
+   cursor: pointer;
+}
