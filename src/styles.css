@@ -34,10 +34,76 @@ h3{
     line-height: 2.8rem;
 }
 
-@media (max-width: 768px){
+/* 4k*/
+@media (max-width: 2560px){
 
     html{
-        font-size: 50%;
+        font-size: 100%!important;
     }
 }
+
+
+/* laptop large*/
+@media (max-width: 1440px){
+
+    html{
+        font-size: 80%!important;
+    }
+
+    .container {
+        max-width: 1404px;
+    }
+}
+
+/* laptop */
+@media (min-width: 768px) and (max-width: 1024px){
+
+    html{
+        font-size: 65.5%!important;
+    }
+
+    .container, .container-md, .container-sm {
+        max-width: 988px;
+    }
+}
+
+/* Tablet */
+@media  only screen
+ and (min-width : 425px) 
+ and (max-width: 767px){
+
+    html{
+        font-size: 50%!important;
+    }
+
+    .container, .container-sm {
+        max-width: 732px;
+    }
+}
+
+/* Mobile large */
+@media (max-width: 425px){
+
+    html{
+        font-size: 5%!important;
+    }
+}
+
+/* Mobile medium */
+@media (max-width: 375px){
+
+    html{
+        font-size: 100% !important;
+    }
+}
+
+/* Mobile small */
+@media (max-width: 320px){
+
+    html{
+        font-size: 100% !important;
+    }
+}
+
+
 
