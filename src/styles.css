@@ -70,7 +70,8 @@ h3{
 /* Tablet */
 @media  only screen
  and (min-width : 425px) 
- and (max-width: 767px){
+ and (max-width: 767px)
+ {
 
     html{
         font-size: 50%!important;
@@ -82,10 +83,17 @@ h3{
 }
 
 /* Mobile large */
-@media (max-width: 425px){
+@media only screen
+and  (min-width: 375px)
+and  (max-width: 425px)
+{
 
     html{
-        font-size: 5%!important;
+        font-size: 30%!important;
+    }
+
+    .container, .container-sm {
+        max-width: 389px;
     }
 }
 
@@ -93,7 +101,11 @@ h3{
 @media (max-width: 375px){
 
     html{
-        font-size: 100% !important;
+        font-size: 28% !important;
+    }
+
+    .container, .container-sm {
+        max-width: 339px;
     }
 }
 
@@ -101,7 +113,10 @@ h3{
 @media (max-width: 320px){
 
     html{
-        font-size: 100% !important;
+        font-size: 25% !important;
+    }
+    .container, .container-sm {
+        max-width: 300px;
     }
 }
 
